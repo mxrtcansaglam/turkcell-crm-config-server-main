@@ -11,9 +11,9 @@ server:
   port: 0
 spring:
   application:
-    name: account-service
+    name: order-service
   datasource:
-    url: jdbc:postgresql://localhost:5433/turkcellcrmaccountdb
+    url: jdbc:postgresql://localhost:5433/turkcellcrmorderdb
     username: postgres
     password: 12345
   jpa:
